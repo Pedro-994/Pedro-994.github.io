@@ -3,6 +3,7 @@
 	margin: 0;
 }
 
+
 h1{
 	text-shadow: 2px 2px 5px #ffffff;
 	font-size: 30px;
@@ -56,11 +57,10 @@ body{
 	display: inline-block;
 	width: 25%;
 }
-
+.social li:hover{
+	transform:rotate(360deg);
+	transition: all 1s;
 }
-
-
-
 article{
 	background: #fffbcc;
 	border: 1px solid #999;
