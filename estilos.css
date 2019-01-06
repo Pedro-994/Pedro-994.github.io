@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	font: bold 15px sans-serif;
+}
+
+header,section,footer,aside,nav,title, hgroup{
+	
+	display: block;
+}
+
+body{
+	background: #00d8d6;
+	text-align: center;	
+}
+
+.agrupar{
+	background: #0fbcf9;
+	width: 980px;
+	border: 1px solid black;
+	margin: 15px auto;
+	padding: 30px;
+}
+.cabecera h1{
+	text-align: center; 
+}
+.cabecera{
+	border: 1px #999999;
+	background: #485460;
+	padding: 20px;	
+	text-align: left; 
+}
+.Menu{
+	background: #808e9b;
+	padding: 15px;
+
+}
+.Menu li{
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana;
+	display: inline-block;
+
+}
+article{
+	background: #fffbcc;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 15px 0;
+}
+article footer{
+	text-align: right
+}
+.seccion{
+	width: 60%;
+	margin: 20px;
+	float: left;
+}
+time{
+	color: #999;
+}
+
+.columna{
+	width: 30%;
+	margin: 20px 0;
+	float: left;
+}
+.columna li{
+	list-style: none;
+}
+.columna blockquote{
+	border: 1px solid black;
+	padding:  10px;
+	background: #fffbcc;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 150px;
+	margin: auto 15px;
+}
+
+.pie{
+	clear: both;
+	padding: 20px;
+	background: #d2dae2;
+}
+
+.columna blockquote{
+	border: 1px solid black;
+}
