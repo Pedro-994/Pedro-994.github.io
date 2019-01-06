@@ -26,16 +26,16 @@
 				</address>
 			</ul>
 		</nav>
-
+<!--hola
+	-->
 		<section class="seccion">	
 			<article>
 				<hgroup>
-					<h1>Titulo 1</h1>
+					<h1>Titulo 1 <button>Click me</button></h1>
 					<h2>Subtitulo 1</h2>
 				</hgroup>
 				<time datetime="05-01-2019">Fecha de publicacion 05-01-2019 </time>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <small>Temporibus maiores expedita facere mollitia! Tenetur error</small>, non delectus ex aliquam debitis maxime nam, similique odit rem molestiae a consequuntur sunt cupiditate.</p>
-				<footer>Comentarios (0)</footer>
+				<img src="https://media.giphy.com/media/l4FGjUajUCyj3J4RO/giphy.gif" alt="">
 			</article>
 		
 		<article>
@@ -44,8 +44,23 @@
 				<h2>Subtitulo 2</h2>
 			</hgroup>
 			<time datetime="05-01-2019">Fecha de publicacion 05-01-2019</time>
-			<p><cite>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</cite> Et explicabo illum animi, nulla deserunt amet error deleniti esse, doloribus unde rerum ullam, ut minus aliquid dolor nostrum incidunt autem sunt.</p>	
-			<footer> Comentarios (0)</footer>
+			
+		<script>
+			function light(sw) {
+  			var pic;
+  			if (sw == 0) {
+    			pic = "Imagenes/pic_bulboff.gif"
+  		    } else {
+    			pic = "Imagenes/pic_bulbon.gif"
+  			}
+  			document.getElementById('myImage').src = pic;
+			}
+		</script>
+<img id="myImage" src="Imagenes/pic_bulboff.gif" width="10" height="450">
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
 		</article>
 		</section>
 

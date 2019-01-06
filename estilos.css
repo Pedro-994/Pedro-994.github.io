@@ -83,7 +83,12 @@ time{
 	background: #fffbcc;
 	margin-bottom: 20px;
 }
+.seccion img{
+	display:  block;
+	width: 500px;
+	margin: auto;
 
+}
 img{
 	width: 150px;
 	margin: auto 15px;
